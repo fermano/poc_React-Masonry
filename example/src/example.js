@@ -20,7 +20,7 @@ function genSiteScopeDevice(siteScopeLineLog) {
 	var deviceType = device[1];
 
 	//TODO Melhorar este tratamento e quebrar em outra função
-	var deviceStatus = "";
+	var deviceStatus = "images/";
 	if (device[2] == "OK") deviceStatus += "ic-ok.png";
 	else if (device[2] == "WARNING") deviceStatus += "ic-warning.png";
 	else deviceStatus += "ic-error.png";
